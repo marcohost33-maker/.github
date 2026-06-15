@@ -1,0 +1,39 @@
+name: Feature-Wunsch
+description: Eine neue Funktion oder Verbesserung vorschlagen
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke fuer den Vorschlag. Bitte beschreibe das Problem hinter dem Wunsch,
+        nicht nur die gewuenschte Loesung.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / Motivation
+      description: Welches Problem loest dieser Wunsch? Wen betrifft es?
+      placeholder: Aktuell ist es nicht moeglich, ...
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Vorgeschlagene Loesung
+      description: Wie koennte die Funktion aussehen oder sich verhalten?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativen
+      description: Welche anderen Ansaetze wurden bedacht?
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Zusaetzlicher Kontext
+      description: Skizzen, Links, Beispiele (ohne Secrets).
+    validations:
+      required: false

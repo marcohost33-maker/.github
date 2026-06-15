@@ -1,0 +1,63 @@
+name: Bug-Report
+description: Ein reproduzierbares Problem melden
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke fuer den Report. Bitte keine Secrets, Tokens oder personenbezogenen
+        Daten in dieses Issue einfuegen.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Was ist passiert?
+      description: Beschreibe das Fehlverhalten klar und knapp.
+      placeholder: Beim Klick auf X passiert Y, erwartet war Z.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduktionsschritte
+      description: Schritt-fuer-Schritt, damit der Bug nachstellbar ist.
+      placeholder: |
+        1. Gehe zu '...'
+        2. Klicke auf '...'
+        3. Fehler erscheint
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Erwartetes Verhalten
+      description: Was haette stattdessen passieren sollen?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version / Commit
+      description: Tag, Release oder Commit-SHA, falls bekannt.
+      placeholder: v1.2.0 oder abc1234
+    validations:
+      required: false
+  - type: textarea
+    id: environment
+    attributes:
+      label: Umgebung
+      description: OS, Browser, Node-/Python-Version, soweit relevant.
+      placeholder: |
+        - OS: Windows 11
+        - Browser: Chrome 138
+        - Node: 20.x
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Screenshots
+      description: Relevante Auszuege (ohne Secrets) anhaengen.
+      render: shell
+    validations:
+      required: false
