@@ -36,6 +36,6 @@ Wie wurde die Korrektheit belegt? Befehl + Ergebnis, z.B.:
 
 - Dieser PR sollte als **Draft** starten und erst nach verifizierter Definition-of-Done
   auf "ready" gesetzt werden.
-- Vor dem Merge erfolgt ein unabhaengiger Verifikations-/Review-Schritt (Equalita-Gate).
-- Agent-PRs bitte mit `agent:claude` / `agent:codex` / `agent:bot` labeln.
+- Vor dem Merge erfolgt eine unabhaengige Verifikations-/Review-Runde.
+- Mit KI-Assistenten erstellte PRs werden gekennzeichnet, siehe CONTRIBUTING.md.
 - Merge bevorzugt per **Auto-Merge (Squash)**: `gh pr merge --auto --squash`.
