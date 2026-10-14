@@ -23,7 +23,12 @@ Absender: Coworker Research (Coworkerz).
 
 GitHub verwendet diese Dateien für jedes Repository des Kontos, das keine eigene
 Datei mit demselben Namen hat. Hat ein Repository eine eigene Datei (zum
-Beispiel ein eigenes `SECURITY.md`), gilt diese. Lizenzen werden nicht vererbt;
+Beispiel ein eigenes `SECURITY.md`), gilt diese. **Ausnahme Issue-Vorlagen:** sobald
+ein Repository in seinem eigenen `.github/ISSUE_TEMPLATE` eine gültige Vorlage oder
+eine `config.yml` hat, verwendet GitHub **nichts** aus dem Standard-Ordner
+`.github/ISSUE_TEMPLATE` mehr, auch nicht das Bug-Formular oder den
+Sicherheits-Kontaktlink; wer dort nur eine eigene Vorlage ergänzt, muss die
+übrigen mitkopieren. Lizenzen werden nicht vererbt;
 jedes Repository trägt seine eigene `LICENSE`.
 
 Quelle: GitHub Docs, [Creating a default community health file](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file).

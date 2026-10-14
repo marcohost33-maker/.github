@@ -15,9 +15,12 @@ Repository nennt in seinem eigenen `SECURITY.md` andere.
 
 - **Fragen, Fehler, Wünsche:** als Issue im betroffenen Repository. Die
   Formulare für Bug-Reports und Feature-Wünsche helfen, das Nötige anzugeben.
-- **Sicherheitslücken:** nicht als Issue, sondern vertraulich, siehe
-  [SECURITY.md](SECURITY.md).
-- **Verhalten in der Community:** siehe
-  [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+- **Sicherheitslücken:** nicht als Issue, sondern vertraulich nach der
+  Sicherheitsrichtlinie des **betroffenen** Repositorys: dort Reiter
+  **Security** -> **Security policy** (hat das Repository ein eigenes
+  `SECURITY.md`, steht dort dieses, sonst die Standard-Richtlinie).
+- **Verhalten in der Community:** nach dem Verhaltenskodex des betroffenen
+  Repositorys (sein eigenes `CODE_OF_CONDUCT.md`, sonst der Standard-Kodex aus
+  diesem Konto).
 
 Bitte keine Secrets, Tokens oder personenbezogenen Daten in Issues einfügen.
