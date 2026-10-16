@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: Sicherheits-Meldung
-    url: https://github.com/marcohost33-maker/.github/security/advisories/new
-    about: Sicherheitsrelevante Befunde bitte vertraulich melden, nicht als oeffentliches Issue.
+    url: https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/privately-reporting-a-security-vulnerability
+    about: Nicht als oeffentliches Issue. Es gilt die Sicherheitsrichtlinie DIESES Repositorys (Reiter "Security" -> "Security policy"); der Link erklaert die vertrauliche Meldung ueber "Report a vulnerability".
